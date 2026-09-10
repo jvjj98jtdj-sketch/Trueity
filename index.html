@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#050505">
+<title>Trueity — AI Code Builder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="glow glow-one"></div>
+<div class="glow glow-two"></div>
+
+<header class="topbar">
+
+<a class="brand" href="#">
+<span class="brand-mark">
+<span></span>
+</span>
+
+<span>Trueity</span>
+</a>
+
+<button class="menu-btn" id="menuBtn">
+<i></i>
+<i></i>
+<i></i>
+</button>
+
+</header>
+
+
+<main class="hero">
+
+<div class="version">
+TRUEITY <span>1.0</span>
+</div>
+
+<h1>
+Создавай код.<br>
+<em>Лучше.</em>
+</h1>
+
+<p class="subtitle">
+ИИ для создания современных сайтов и программ.
+HTML, CSS, JavaScript и Python.
+</p>
+
+
+<section class="builder-card">
+
+<div class="card-head">
+
+<div>
+<span class="status-dot"></span>
+<span>Trueity AI</span>
+</div>
+
+<span class="model">
+Code Engine 1.0
+</span>
+
+</div>
+
+
+<textarea
+id="prompt"
+placeholder="Опиши, какой код или сайт нужно создать..."
+></textarea>
+
+
+<div class="quick-actions">
+
+<button data-prompt="Создай современный адаптивный сайт">
+🌐 Сайт
+</button>
+
+<button data-prompt="Создай HTML, CSS и JavaScript для">
+💻 Web-код
+</button>
+
+<button data-prompt="Исправь и улучши мой код">
+✦ Улучшить код
+</button>
+
+</div>
+
+
+<button class="generate-btn" id="generateBtn">
+
+<span>
+Создать код
+</span>
+
+<span class="arrow">
+→
+</span>
+
+</button>
+
+</section>
+
+
+<section class="result-card" id="resultCard" hidden>
+
+<div class="result-head">
+
+<span>
+Результат
+</span>
+
+<button id="copyBtn">
+Копировать
+</button>
+
+</div>
+
+<pre>
+<code id="resultCode"></code>
+</pre>
+
+</section>
+
+
+<div class="features">
+
+<div>
+<strong>01</strong>
+<span>Понимает задачу</span>
+</div>
+
+<div>
+<strong>02</strong>
+<span>Пишет чистый код</span>
+</div>
+
+<div>
+<strong>03</strong>
+<span>Готовит к запуску</span>
+</div>
+
+</div>
+
+</main>
+
+
+<div class="drawer" id="drawer">
+
+<button class="close-btn" id="closeBtn">
+×
+</button>
+
+<div class="drawer-content">
+
+<span class="drawer-label">
+TRUEITY
+</span>
+
+<h2>
+AI Code Builder
+</h2>
+
+<nav>
+
+<a href="#">
+Главная
+</a>
+
+<a href="#">
+Новый проект
+</a>
+
+<a href="#">
+Мои проекты
+</a>
+
+<a href="#">
+Версии Trueity
+</a>
+
+</nav>
+
+</div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
